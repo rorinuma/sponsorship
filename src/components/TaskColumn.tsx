@@ -12,7 +12,7 @@ export type TaskColumnProps = {
   containerBgColor: string
   taskAmount: number
   tasks: Task[]
-  taskType: 'waiting' | 'inProgress' | 'completed'
+  taskType: "waiting" | "inProgress" | "completed"
 }
 
 export type TaskContainerProps = {
@@ -31,6 +31,7 @@ const TasksContainer = styled.div<TaskContainerProps>`
   display: flex;
   flex-direction: column;
   border-radius: 1.25rem;
+  gap: 1rem;
   padding: 0.75rem;
   height: 100%;
   background-color: ${({ containerBgColor }) => containerBgColor};

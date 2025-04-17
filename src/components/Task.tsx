@@ -23,6 +23,10 @@ const TaskContainer = styled.div`
     display: flex;
     justify-content: space-between;
 
+    input {
+      overflow-wrap: break-word;
+    }
+
     div {
       display: flex;
       align-items: center;
