@@ -2,7 +2,7 @@ import { Plus } from "lucide-react"
 import styled from "styled-components"
 import { useAppDispatch } from "../app/hooks"
 import { taskAdded } from "../features/tasks/tasksSlice"
-import { Task } from "../features/tasks/tasksSlice"
+import type { Task } from "../features/tasks/tasksSlice"
 import { useState } from "react"
 
 const Button = styled.button<{ color: string }>`

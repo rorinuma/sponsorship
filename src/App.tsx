@@ -30,7 +30,7 @@ const ProgressBar = styled.div`
 `
 export const App = () => {
   const dispatch = useAppDispatch()
-  const { tasks, assignees, statuses, loading } = useAppSelector(
+  const { tasks } = useAppSelector(
     (state: RootState) => state.tasks,
   )
 
